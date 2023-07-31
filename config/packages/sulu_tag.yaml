@@ -1,0 +1,5 @@
+sulu_tag:
+    objects:
+        tag:
+            model: App\Entity\Tag
+            repository: Sulu\Bundle\TagBundle\Entity\TagRepository

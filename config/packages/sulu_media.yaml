@@ -5,3 +5,7 @@ sulu_media:
             # see also: https://docs.sulu.io/en/2.5/book/image-formats.html
             jpeg_quality: 90
             webp_quality: 90
+    objects:
+        media:
+            model: App\Entity\Media
+            repository: Sulu\Bundle\MediaBundle\Entity\MediaRepository

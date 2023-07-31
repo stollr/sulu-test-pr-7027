@@ -1,0 +1,8 @@
+sulu_contact:
+    objects:
+        contact:
+            model:                App\Entity\Contact
+            repository:           Sulu\Bundle\ContactBundle\Entity\ContactRepository
+        account:
+            model:                App\Entity\Account
+            repository:           Sulu\Bundle\ContactBundle\Entity\AccountRepository
